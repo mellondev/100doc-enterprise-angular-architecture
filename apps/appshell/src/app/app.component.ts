@@ -8,6 +8,7 @@ import { Todo } from '@mellondev/data';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  title: 'Welcome to Todos'
   todos: Todo[] = [];
 
   constructor(private http: HttpClient) {
