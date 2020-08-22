@@ -1,7 +1,7 @@
 {
 	"name": "NX Angular/Crypress Dev Env",
 	"dockerFile": "Dockerfile",
-	"appPort": [4200],
+	"forwardPorts": [4200],
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
@@ -12,9 +12,6 @@
 		"esbenp.prettier-vscode",
 		"hookyqr.beautify"
 	]
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
